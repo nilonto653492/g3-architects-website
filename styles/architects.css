@@ -39,6 +39,9 @@ main {
 main > section {
   margin-top: 130px;
 }
+.section-title {
+  font-size: 2.8rem;
+}
 /* header styles */
 .navbar {
   justify-content: space-between;
@@ -91,11 +94,37 @@ team and feature related design
   margin-left: 130px;
   max-width: 530px;
 }
-.section-title {
-  font-size: 2.8rem;
-}
-#quicl-list {
+
+#quick-list {
   font-weight: 500;
+}
+.facts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+/* some fact */
+.fact-card {
+  border-color: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.fact-number {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fact-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.fact-description {
+  max-width: 540px;
 }
 @media screen and (max-width: 576px) {
   .navbar,
